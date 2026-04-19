@@ -2,6 +2,9 @@
   <h1>🔎 YoloSeg: You Only Label Once for Medical Image Segmentation</h1>
 </div>
 
+> Mingen Zhang, Yuanyuan Gu, Meng Wang, Lei Mou, Jingfeng Zhang, Yitian Zhao</br>
+> *Medical Image Analysis (MedIA)*, 2026
+> 
 ---
 
 ## 👀 Overview
@@ -9,7 +12,7 @@
 YoloSeg is a two-stage framework for medical image segmentation using only **one labeled image**.
 
 1. **Foundation model-drvien pseudo-label generation**  
-   Generateing multi-view pseudo labels and divergence masks from a single labeled image using SAM2.
+   Generating multi-view pseudo labels and divergence masks from a single labeled image using SAM2.
 
 2. **Robust pseudo-label learning for segmentation model**  
    Training a segmentation network with dual-component loss and cross-patch data augmentation.
@@ -195,7 +198,7 @@ If you find YoloSeg useful, please cite:
 @article{yoloseg2026,
   title   = {YoloSeg: You Only Label Once for Medical Image Segmentation},
   author  = {Zhang, Mingen and Gu, Yuanyuan and Wang, Meng and Mou, Lei and Zhang, Jingfeng and Zhao, Yitian},
-  journal = {},
+  journal = {Medical Image Analysis},
   year    = {2026}
 }
 ```
@@ -204,4 +207,4 @@ If you find YoloSeg useful, please cite:
 
 ## 🧠 Questions
 
-If you have any questions, feel free to contact: **zhangmingen@nimte.ac.cn**
+If you have any questions, feel free to contact: zhangmingen@nimte.ac.cn
